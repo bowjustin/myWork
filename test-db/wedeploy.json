@@ -2,5 +2,8 @@
 	"id": "db",
 	"image": "mysql:5.6",
 	"port": 3306,
-	"zeroDowntime": false
+	"zeroDowntime": false,
+	"env": {
+		"MYSQL_ROOT_PASSWORD": "password"
+	}
 }
